@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> Module 4 </title>
+  </head>
+  <body>
+    <div class="calculator">
+    	<h1 class="calculator__title">Tip Calculator</h1>
+    	<div class="field">
+    		<label for="amount" class="field__label">Amount between $5 and $500</label>
+    		<input type="text" name="amount" id="amount" placeholder="$" class="field__input">
+    		</input>
+    	</div>
+    	<div class="field">
+    		<label for="tip" class="field__label">Tip</label>
+    		<select name="tip" id="tip" class="field__input">
+    			<option value="10">10% Poor</option>
+    			<option value="15">15% Ok</option>
+    			<option value="20">20% Good</option>
+    		</select>
+        
+    	</div>
+
+    	<button id="myFunction">Calculate</button>
+    	<div class="info">
+    		<p class="info__tip"></p>
+    		<p class="info__total"></p>
+    	</div>
+    </div>
+    <script>
+    function myFunction();
+    return amount * tip;
+    
+    </script>
+</body>
+</html>
